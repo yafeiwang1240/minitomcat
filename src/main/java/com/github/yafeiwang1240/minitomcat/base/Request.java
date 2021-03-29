@@ -1,4 +1,4 @@
-package com.github.yafeiwang1240.minitomcat;
+package com.github.yafeiwang1240.minitomcat.base;
 
 import java.io.InputStream;
 
@@ -11,6 +11,10 @@ public class Request {
 
     private String method;
     private String url;
+
+    public Request() {
+
+    }
 
     public Request(InputStream in) {
         try {

@@ -1,4 +1,4 @@
-package com.github.yafeiwang1240.minitomcat;
+package com.github.yafeiwang1240.minitomcat.base;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -11,6 +11,9 @@ import java.io.OutputStream;
 public class Response {
 
     private OutputStream out;
+
+    public Response() {
+    }
 
     public Response(OutputStream out) {
         this.out = out;
